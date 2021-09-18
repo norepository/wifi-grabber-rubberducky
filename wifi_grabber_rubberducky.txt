@@ -3,8 +3,7 @@ REM Author: tony
 REM Based on the code of: Siem TTommy
 REM: Version 1.1
 REM --> waits for windows to open file explorer and closes it other wise it might mess up script
-DELAY 7000 
-GUI DOWNARROW
+DELAY 7500 
 GUI d
 DELAY 150
 GUI r
