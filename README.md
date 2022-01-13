@@ -5,4 +5,4 @@ Script made by @norepository based on the code of Siem TTommy
 - Make sure to allow less secure app by clicking here: https://myaccount.google.com/lesssecureapps
 
 
-For any question dm me on discord tony#5678
+For any question dm me on discord ```tony#5678```
